@@ -13,5 +13,5 @@ jobs:
         id: compositeAction
         with:
           number1: 5
-          number2: 10
+          number2: 4
       - run: echo ${{ steps.compositeAction.outputs.result }}
